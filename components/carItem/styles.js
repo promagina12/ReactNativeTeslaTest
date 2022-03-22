@@ -18,6 +18,10 @@ const styles = StyleSheet.create ({
         fontSize: 40 ,
         fontWeight: '500',
       },
+
+      subtitleCTA: {
+        textDecorationLine: 'underline'
+      },
     
       subtitle: {
         fontSize: 16 ,
@@ -29,7 +33,13 @@ const styles = StyleSheet.create ({
         height: '100%',
         resizeMode: 'cover',
         position: 'absolute'
-      }
+      },
+
+      buttonContainer: {
+        position:'absolute',
+        bottom: 50,
+        width:'100%'
+      },
 
 });
 
